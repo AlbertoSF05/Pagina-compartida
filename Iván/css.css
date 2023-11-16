@@ -20,8 +20,22 @@
   max-heigth: 1600px;
   float: left;
 }
-.h {
-  
+.h1 {
+  font size: 40px
+  font style: normal
+  font weight: 700
+  font letiant: N/A
+  font family: Genos, sans-serif
+  rendered font family [estimated]: Genos
+(II) — — — — — — —
+  font color: rgb(255, 255, 255)
+  background color: rgba(0, 0, 0, 0)
+(III) — — — — — — —
+  text-align: center
+  text-indent: 0px
+  line-height: 40px
+  text-transform: none
+  text-decoration: none solid rgb(255, 255, 255)
 }
 .p {
   
