@@ -1,0 +1,54 @@
+::-webkit-scrollbar {
+    display: none;
+}
+* {
+    margin: 0;
+}
+
+.arriba {
+    height: 69px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    float: left;
+    position: fixed;
+}
+
+.arribaconf {
+    height: 69px;
+    width: 100%;
+    background-color: blue;
+    float: left;
+}
+
+.abajo {
+    height: 1000px;
+    width: 100%;
+    background-color: red;
+    float: left;
+}
+
+.textin {
+    
+    font-size: medium;
+    float: right;
+    margin-top: 10px;
+    padding: 15px 2% 1% 0%;
+
+}
+
+.texton {
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    src: url(../Fuentes/Montserrat-Light.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 0.05em
+}
+
+.texton:hover {
+    color: red;
+}
