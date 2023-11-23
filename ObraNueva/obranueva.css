@@ -120,9 +120,7 @@ p{
     background-image: url(../ObraNueva/imagenes/intro.jpg);
     background-color: aqua;
     display: flex;
-    height: 60vh;
-    min-height: 340px;
-    max-height: 2186px;
+    height: 546px;
     position: relative;
     background-repeat:no-repeat ;
     box-sizing: border-box;
@@ -134,9 +132,7 @@ p{
 #filter{
     width: 100%;
     background-color: rgba(51, 51,51,.3 );
-    height: 60vh;
-    min-height: 340px;
-    max-height: 2186px;
+    height: 548px
 }
 #intro{
     width: 703px;
@@ -156,7 +152,7 @@ p{
     max-width: 800px;
     text-align: center;
     position: absolute;
-    top:50%
+    top:250px;
 }
 
 
