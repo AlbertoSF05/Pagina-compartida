@@ -49,7 +49,7 @@ h3{
     background-image: url(https://www.interproyect.com/images/diseno-interiores.jpg);
     background-color: aqua;
     display: flex;
-    height: 60vh;
+    height: 548px;
     position: relative;
     background-repeat:no-repeat ;
     box-sizing: border-box;
@@ -73,9 +73,7 @@ h3{
 #filter{
     width: 100%;
     background-color: rgba(51, 51, 51,.3 );
-    height: 60vh;
-    min-height: 340px;
-    max-height: 2186px;
+    height: 548px;
 }
 .principal{
     height: 70px;
@@ -83,7 +81,7 @@ h3{
     max-width: 800px;
     text-align: center;
     position: absolute;
-    top:50%
+    top:250px;
     
 }
 p{
@@ -175,6 +173,7 @@ header{
   background-image: url(https://www.interproyect.com/images/proyectos-interiorismo.jpg);
   float: left;
   margin: 10px;
+  border-radius: 15px;
 }
 
 .sub-cont2{
@@ -186,6 +185,7 @@ header{
   background-position-x: -300px;
   background-position-y: -190px ;
   margin-right: 20px;
+  border-radius: 15px;
 }
 
 .sub-cont3{
@@ -197,6 +197,7 @@ header{
   background-color: whitesmoke;
   background-position-x: -200px;
   background-position-y: -70px ;
+  border-radius: 15px;
 }
 
 .sub-cont4{
@@ -208,6 +209,7 @@ header{
   background-color: whitesmoke;
   background-position-x: -200px;
   background-position-y: -70px ;
+  border-radius: 15px;
 }
 @font-face {
   font-family: 'Montserrat';
