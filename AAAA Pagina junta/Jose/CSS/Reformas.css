@@ -1,0 +1,82 @@
+.TaDIP {
+    height: 400px; 
+    width: 100%;
+}
+
+.TaIMp {
+    width: 100%;
+    background-attachment: scroll;
+    display: flex;
+    height: 548px;
+    position: relative;
+    background-repeat:no-repeat ;
+    box-sizing: border-box;
+    background-origin: padding-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+}
+
+.texto-encima{
+    position: absolute;;
+    top: 10px;
+    left: 10px;
+    color: black;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.DGeneral {
+    width: 100%
+}
+
+.DivTaText {
+    width: 50%; 
+    float: left; 
+    height: 400px; 
+    padding: auto;
+}
+
+.DivText {
+    width:80%; 
+    padding-left: 50px;
+}
+
+.DivGeneImg1{
+    float: left; 
+    width:50%;  
+    height: 400px;
+}
+
+.btn {
+    background-color: #fafafa;
+    color: #ec182b;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: grey;
+    margin-left: 330px;
+    margin-top: 50px;
+    font-family: 'Montserrat';
+  }
+  
+  .btn:hover {
+    border-color: #ec182b;
+    background-color: #ec182b;
+    color: #fafafa;
+  }
+  strong  {
+  color:#ec182b
+  }
+  span {
+  color:#ec182b
+}
+
