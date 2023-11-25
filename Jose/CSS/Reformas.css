@@ -1,0 +1,89 @@
+.TaDIP {
+    height: 600px; 
+    width: 100%;
+}
+
+.TaIMp {
+    width: 100%;
+    background-attachment: scroll;
+    display: flex;
+    height: 548px;
+    position: relative;
+    background-repeat:no-repeat ;
+    box-sizing: border-box;
+    background-origin: padding-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+}
+
+.DGeneral {
+    width: 100%
+}
+
+.DivTaText {
+    width: 50%; 
+    float: left; 
+    height: 400px; 
+}
+
+.AnText {
+    width:80%; 
+    padding-left: 100px;
+}
+
+.DivText {
+    width: 70%; 
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.ClassIMG {
+    width: 500px; 
+    height: 300px; 
+    border-radius: 15px;
+}
+
+.a{
+    width:70%; 
+    padding-left: 150px; 
+    padding-top: 50px;  
+}
+
+.b{
+    width:80%; 
+    padding-left: 50px;
+}
+
+.IMG {
+    width: 500px; 
+    height: 300px; 
+    border-radius: 15px;
+}
+
+.btn {
+    background-color: #fafafa;
+    color: #ec182b;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: grey;
+    margin-left: 330px;
+    margin-top: 50px;
+    font-family: 'Montserrat';
+  }
+  
+  .btn:hover {
+    border-color: #ec182b;
+    background-color: #ec182b;
+    color: #fafafa;
+  }
+  strong  {
+  color:#ec182b
+  }
+  span {
+  color:#ec182b
+}
+
