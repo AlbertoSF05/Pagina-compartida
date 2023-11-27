@@ -1,0 +1,149 @@
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  
+}
+h1 {
+  font-size: 40px;
+  font-style: style, normal;
+  font-weight: 700;
+  font-family: 'Genos';
+  text-align: left;
+  text-indent: 0px;
+  line-height: 40px;
+  text-transform: none;
+}
+h3{
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family:'Genos';
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  line-height: 50px;
+}
+#photo{
+    width: 2380px;
+    background-attachment: scroll;
+    display: flex;
+    margin-left: 0px;
+    height: 400px;
+    position: relative;
+    background-repeat:no-repeat ;
+    box-sizing: border-box;
+    background-origin: padding-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+}
+p{
+  font-family: 'Montserrat';
+  color: rgb(51, 51, 51);
+  margin-left: 10px;
+}
+h2{
+  margin: 0px;
+  font-family:'Genos';
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  text-shadow: rgb(0, 0, 0) 0px 0px 4px;
+
+}
+#contenedor{
+  width: 100%;
+  max-width: 1920px;
+  height: 2380px;
+}
+
+#seccion{
+  box-sizing: border-box;
+  display: block;
+  height: 641px;
+  width: 100%;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 80px;
+}
+.subcont{
+  width: 1610px;
+  height: 481px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  
+}
+
+.sub-cont{
+  width: 788px;
+  height: 461px;
+  float: left;
+
+}
+.sub-cont-button{
+  width: 788px;
+  height: 461px;
+  float: left;
+
+}
+.sub-cont1{
+  width: 778px;
+  height: 430px;
+  background-image: url(https://www.interproyect.com/images/proyectos-interiorismo.jpg);
+  float: left;
+  margin: 10px;
+  border-radius: 15px;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./Fuentes/Montserrat/static/Montserrat-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Genos';
+  src: url('./Fuentes/Genos/static/Genos-Bold.ttf')format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: 100%;
+  
+}
+button {
+  background-color: red;
+  border-style: solid ;
+  border-color: black;
+  min-height: 30px;
+  min-width : 90px;
+  max-height: 30px;
+  max-width : 90px;
+}
+.btn {
+  background-color: #fafafa;
+  color: #ec182b;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: grey;
+  margin-left: 330px;
+  margin-top: 50px;
+  font-family: 'Montserrat';
+}
+
+.btn:hover {
+  border-color: #ec182b;
+  background-color: #ec182b;
+  color: #fafafa;
+}
+strong  {
+color:#ec182b
+}
+span {
+color:#ec182b
+}

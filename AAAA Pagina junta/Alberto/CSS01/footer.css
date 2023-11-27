@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fuentes/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Genos';
+    src: url('../fuentes/Genos-Bold.ttf')format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: 100%;
+}
+
+span{
+    color: #ec182b;
+}
+
+h2{
+    margin-top: 0px;
+    font-family:'Genos';
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+h4{
+    margin-top: 0px;
+    font-family:'Genos';
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+body {
+padding: 0px;
+margin: 0px;
+}
+
+
+footer {
+width: 100%;
+height: 200px;
+background-color: rgb(147, 147, 147);
+padding: 25px 0px 0px 25px;
+}
