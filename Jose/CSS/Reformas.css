@@ -16,7 +16,9 @@
     background-position-y: 50%;
     background-size: cover;
 }
-
+p{
+    font-family: 'Montserrat';
+}
 .DGeneral {
     width: 100%
 }
@@ -69,7 +71,7 @@
     border-radius: 5px;
     border-style: solid;
     border-radius: 5px;
-    border-color: grey;
+    border-color: #ec182b;
     margin-left: 330px;
     margin-top: 50px;
     font-family: 'Montserrat';
@@ -87,3 +89,27 @@
   color:#ec182b
 }
 
+.red {
+color: #ec182b;
+}
+
+
+.Nh1 {
+    font-weight: bold;
+    font-family: 'Genos';
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../CSS/Montserrat/static/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Genos';
+    src: url('../CSS/Genos/static/Genos-Bold.ttf')format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: 100%;
+}
