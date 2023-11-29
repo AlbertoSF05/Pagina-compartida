@@ -117,7 +117,7 @@ p{
 #photo{
     width: 100%;
     background-attachment: scroll;
-    background-image: url(../ObraNueva/imagenes/intro.jpg);
+    background-image: url(ObraNueva/imagenes/intro.jpg);
     background-color: aqua;
     display: flex;
     height: 546px;
