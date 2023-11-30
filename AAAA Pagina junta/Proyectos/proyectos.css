@@ -1,0 +1,152 @@
+::-webkit-scrollbar {
+    display: none;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fuentes/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Genos';
+    src: url('./fuentes/Genos-Bold.ttf')format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: 100%;
+}
+span{
+    color: #ec182b;
+}
+select{
+    border: 1px solid #eee;
+    padding: 2px 4px;
+    margin-left: 4px;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+    line-height: 0px;
+    font-size: 14px;
+}
+select:hover {
+    border-color: #000000;
+  }
+option{
+    font-family: 'Montserrat';
+}
+body{
+    padding: 0;
+    margin: 0;
+    min-width: 300px
+}
+h1{
+    margin: 0px;
+    font-family:'Genos';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 0px 0px 4px;
+
+}
+h3{
+    margin-top: 0px;
+    font-family:'Genos';
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+p{
+    margin-top: 0px;
+    font-family:'Montserrat';
+    font-size: 17px;
+    color: rgb(51, 51, 51);
+    text-align: left;
+    line-height: 27.2px;
+}
+#p2{
+    margin-top: 0px;
+    font-family:'Montserrat';
+    font-size: 17px;
+    color: rgb(51, 51, 51);
+}
+
+
+#contenedor{
+    width: 100%;
+    max-width: 1920px;
+    height: 2380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#photo{
+    width: 100%;
+    background-attachment: scroll;
+    background-image: url(../Proyectos/imagenes/intro.jpg);
+    background-color: aqua;
+    display: flex;
+    height: 546px;
+    position: relative;
+    background-repeat:no-repeat ;
+    box-sizing: border-box;
+    background-origin: padding-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+}
+#filter{
+    width: 100%;
+    background-color: rgba(51, 51,51,.3 );
+    height: 548px
+}
+#intro{
+    width: 703px;
+    height: 100%;
+    text-align: center;
+    background-attachment: scroll;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right:auto ;
+    align-items: center;
+    justify-content: center;
+}
+.principal{
+    height: 70px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    position: absolute;
+    top:250px;
+}
+
+
+#seccion{
+    box-sizing: border-box;
+    display: block;
+    height: 641px;
+    width: 100%;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+}
+.subcont{
+    width: 1600px;
+    height: 481px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+
+}
+.sub-cont{
+    width: 1600px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.sub-cont1{
+    width: 300px;
+    height: 50px;
+    padding-top: 15px;
+    margin-left: 1270px;
+}
